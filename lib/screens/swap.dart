@@ -118,6 +118,7 @@ class _SwapState extends State<Swap> {
                     focusedBorder: InputBorder.none,
                     enabledBorder: InputBorder.none,
                   ),
+                  keyboardType: TextInputType.number,
                   onChanged: (value) {
                     setState(() {
                       secondNum = int.parse(value);
